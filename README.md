@@ -1,5 +1,5 @@
 <h1> Gray Windows Keylogger 2 - Written every line of code with hands</h1>
-<p> Gray Windows Keylogger 2 is undetectable untill 07/Dec/2019 now which can generate windows executable file as well as dll. On clicking this file, it will load from dll and start capturing keyboard keystrokes and send it by gmail you provided. Else you can also relying on single .exe but it can be detected by antiviruses.</p>
+<p> Gray Windows Keylogger 2 is undetectable untill 07/Dec/2019 now which can generate windows executable file as well as dll. On clicking this file, it will load from dll and start capturing keyboard keystrokes and send it by gmail you provided. Else you can also relying on single .exe but it can be detected by antiviruses. See also <a href="https://github.com/graysuit/gray-keylogger">Gray Keylogger 1</a>.</p>
 <h2> Features</h2>
 <ul><li>Capture keystrokes and save it temp directory in a file</li>
 <li>Auto Startup as system starts</li>
