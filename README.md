@@ -1,5 +1,5 @@
 <h1> Gray Windows Keylogger 2 - Written every line of code with hands</h1>
-<p> Gray Windows Keylogger 2 is undetectable untill 07/Dec/2019 now which can generate windows executable file as well as dll. On clicking this file, it will load from dll and start capturing keyboard keystrokes and send it by gmail you provided. Else you can also relying on single .exe but it can be detected by antiviruses. See also <a href="https://github.com/graysuit/gray-keylogger">Gray Keylogger 1</a>.</p>
+<p> Gray Windows Keylogger 2 is undetectable untill 07/Dec/2019 now which can generate windows executable file as well as dll. On clicking this file, it will load from dll and start capturing keyboard keystrokes and send it by gmail you provided. Else you can also relying on single .exe but it can be detected by antiviruses. See also <a href="https://github.com/graysuit/grayfish">Gray Fish</a>.</p>
 <h2> Features</h2>
 <ul><li>Capture keystrokes and save it temp directory in a file</li>
 <li>Auto Startup as system starts</li>
@@ -19,7 +19,7 @@
 <p> <b>Don't upload to virustotal or any other virus scanning website.</b> Instead view these results: <a href="https://www.virustotal.com/gui/file/19c68425ce4419b121b263eab999fe17f9b9d053e2b6669738c5c3c44c463d0f/detection">Library.dll detected by 2/69 </a>
 <a href="https://www.virustotal.com/gui/file/260d3975854491c4b83f6dc2fc94b4707d644ba72864bf51b8ca04efb6521f6f/detection">Executer.exe detected by 2/70</a> Many websites gurantees you that virus information will not be shared. But all of them are lies. They need money and they can do anything for that. So these information are shared with anti-virus companies and in return they get money. </p>
 <p> If you upload then it will get detectable and become useless. Instead use your primary antiviruses installed on your system to view detection rate e.g Windows defender, Eset node32, F-Secure, Avira, Avast, kaspersky, Bit-defender etc. <b>Make sure automatic file shairing is OFF.</b></p>
-<p> But if you upload it as every child do, then it will going to make difficulties for newbies like you not programmers like us. <b>Programmers well know how to make 0day exploits everyday.</b></p>
+<p> But if you upload it as every child do, then it will going to make difficulties for newbies like you not programmers like us. <b>Programmers well know how to make 0day exploits everyday.</b> See also <a href="https://github.com/graysuit/gray-keylogger">Gray Keylogger 1</a>.</p>
 <p>We publicized this knowledge to make developers acknowledged of their vulnerabilities + to make new programmers more clever.<b> Don't use this source code for illegal purposes.</b> But if you do, this will on to you, I will not/never take any responsibility for your crime.</p>
 <h2> Contact me personally (want to learn?)</h2>
 <ul><li>Facebook: <a href="https://fb.com/messages/t/gray.programmerz.5"><b>gray.programmerz.5</b></a></li>
