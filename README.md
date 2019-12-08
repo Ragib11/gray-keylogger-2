@@ -7,7 +7,7 @@
 <li>It sends files to gmail as attachment</li>
 <li>Fully undetectable untill 07/Dec/2019 now</li>
 <li>Run only when any keyboard key is pressed</li></ul>
-<img height="500" width="800" src="https://i.ibb.co/z7SSmyq/gray-keylogger-2.png">
+<img height="500" width="800" src="https://i.ibb.co/fd5dGM3/gray-keylogger-2.png">
 <h2> Usage</h2>
 <pre><code>git clone https://github.com/graysuit/gray-keylogger-2.git</code></pre>
 <h2> How antivirus detect malware</h2>
