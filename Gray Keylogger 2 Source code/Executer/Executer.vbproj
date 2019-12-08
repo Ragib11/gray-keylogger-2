@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{21E9629D-0980-4C66-BDCA-6251C324083A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Executer</RootNamespace>
-    <AssemblyName>Executer</AssemblyName>
+    <RootNamespace>Executer_hidden</RootNamespace>
+    <AssemblyName>Executer_hidden</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Empty</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -70,7 +70,7 @@
   <ItemGroup>
     <Reference Include="Library, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\Library.dll</HintPath>
+      <HintPath>bin\Debug\Library.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

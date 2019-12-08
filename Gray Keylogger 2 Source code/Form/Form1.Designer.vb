@@ -46,6 +46,7 @@ Partial Class Form1
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.SaveFileDialog1 = New System.Windows.Forms.SaveFileDialog()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -170,7 +171,7 @@ Partial Class Form1
         Me.TextBox6.Location = New System.Drawing.Point(141, 194)
         Me.TextBox6.Multiline = True
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(364, 38)
+        Me.TextBox6.Size = New System.Drawing.Size(240, 38)
         Me.TextBox6.TabIndex = 11
         Me.TextBox6.Text = "I am details"
         '
@@ -203,7 +204,7 @@ Partial Class Form1
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.Font = New System.Drawing.Font("Source Sans Pro Black", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton3.ForeColor = System.Drawing.Color.Lime
-        Me.RadioButton3.Location = New System.Drawing.Point(335, 238)
+        Me.RadioButton3.Location = New System.Drawing.Point(327, 238)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(138, 38)
         Me.RadioButton3.TabIndex = 15
@@ -305,6 +306,19 @@ Partial Class Form1
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Allow less secure apps n gmail before use"
         '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.ForeColor = System.Drawing.Color.White
+        Me.CheckBox3.Location = New System.Drawing.Point(387, 197)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(118, 35)
+        Me.CheckBox3.TabIndex = 23
+        Me.CheckBox3.Text = "Stealth"
+        Me.CheckBox3.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -313,6 +327,7 @@ Partial Class Form1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(534, 402)
+        Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.CheckBox2)
@@ -368,4 +383,5 @@ Partial Class Form1
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents SaveFileDialog1 As SaveFileDialog
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
+    Friend WithEvents CheckBox3 As CheckBox
 End Class
