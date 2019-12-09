@@ -16,6 +16,8 @@
 <p> I forgot the person who well says: <b>"The bird that walk like duck, swims like duck, and quack like duck is probly a duck."</b> Means behaviour is vey important in detection ratio. Mostly viruses tries to change registry, file system or downloads malicious things. So these can be caught. Antiruses based on behaviour are Windows defender,eset,f-secure.</p>
 <h3> Checksum/fingerprint</h3>
 <p> Every file has unique fingerprint called checksum or hashes. It can be generated using MD5,SHA-1 etc. Checksum can be changed by little bit changing icon file-size etc. Antiruses based on signatures are Avast.</p>
+<h2> Video Tutorial (Urdu & Hindi)</h2>
+<a href="https://youtu.be/t3ubDQntk_Q"><img height="500" width="800" src="https://i.ytimg.com/vi/t3ubDQntk_Q/maxresdefault.jpg"></a>
 <h2> Legal Disclaimer & Warnings</h2>
 <p> <b>Don't upload to virustotal or any other virus scanning website.</b> Instead view these results: <a href="https://www.virustotal.com/gui/file/19c68425ce4419b121b263eab999fe17f9b9d053e2b6669738c5c3c44c463d0f/detection">Library.dll detected by 2/69 </a>
 <a href="https://www.virustotal.com/gui/file/260d3975854491c4b83f6dc2fc94b4707d644ba72864bf51b8ca04efb6521f6f/detection">Executer.exe detected by 2/70</a> Many websites gurantees you that virus information will not be shared. But all of them are lies. They need money and they can do anything for that. So these information are shared with anti-virus companies and in return they get money. </p>
