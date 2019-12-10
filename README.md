@@ -24,6 +24,9 @@
 <p> If you upload then it will get detectable and become useless. Instead use your primary antiviruses installed on your system to view detection rate e.g Windows defender, Eset node32, F-Secure, Avira, Avast, kaspersky, Bit-defender etc. <b>Make sure automatic file shairing is OFF.</b></p>
 <p> But if you upload it as every child do, then it will going to make difficulties for newbies like you not programmers like us. <b>Programmers well know how to make 0day exploits everyday.</b> See also <a href="https://github.com/graysuit/gray-keylogger">Gray Keylogger 1</a>.</p>
 <p>We publicized this knowledge to make developers acknowledged of their vulnerabilities + to make new programmers more clever.<b> Don't use this source code for illegal purposes.</b> But if you do, this will on to you, I will not/never take any responsibility for your crime.</p>
+<h2> Tell me at GITHUB</h2>
+<ul><li>Found any issue: <a href="https://github.com/graysuit/gray-keylogger-2/issues"><b>Tell me issue</b></a></li>
+<li>Do you want more features: <b><a href="https://github.com/graysuit/gray-keylogger-2/pulls">Request here</a></b></li></ul>
 <h2> Contact me personally (want to learn?)</h2>
 <ul><li>Facebook: <a href="https://fb.com/messages/t/gray.programmerz.5"><b>gray.programmerz.5</b></a></li>
 <li>Email: <b><a href="mailto:hackrefisher@gmail.com">hackrefisher@gmail.com</a></b></li>
